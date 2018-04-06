@@ -28,10 +28,10 @@ const app = "I don't do much."
    return kittens
  }
  
-  function appendKitten(arr, name){
-    var kittens
-    kittens = kittens.push(name)
-    return kittens
+  function appendKitten(name){
+    
+    lmd = kittens.push(name)
+    return lmd
   }
 
   describe('removeFirstKitten()', function() {
