@@ -28,8 +28,8 @@ const app = "I don't do much."
    return kittens
  }
  
-  function appendKitten(name){
-    var kittens = kittens
+  function appendKitten(arr, name){
+    var kittens
     kittens = kittens.push(name)
     return kittens
   }
