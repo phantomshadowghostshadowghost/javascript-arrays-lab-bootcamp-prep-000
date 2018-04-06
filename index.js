@@ -10,8 +10,8 @@ const app = "I don't do much."
 
 
  function destructivelyAppendKitten(name){
-    var kittens = kittens
-    return kittens.appendName
+    kittens.push(name)
+    return kittens
  }
   
  
