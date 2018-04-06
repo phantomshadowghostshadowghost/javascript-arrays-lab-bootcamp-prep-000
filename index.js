@@ -29,8 +29,8 @@ const app = "I don't do much."
  }
  
   function appendKitten(name){
-    
-    lmd = kittens.push(name)
+    lmd = kittens
+    lmd = lmd.push(name)
     return lmd
   }
 
