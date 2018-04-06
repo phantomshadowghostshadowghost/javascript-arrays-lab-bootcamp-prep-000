@@ -9,9 +9,9 @@ const app = "I don't do much."
 
 
 
- function destructivelyAppendKitten(name)
- append.kittens(namee)
- return kittens
- end
+ function destructivelyAppendKitten(name){
+ appendName
+
+ }
   
  
