@@ -13,5 +13,9 @@ const app = "I don't do much."
     kittens.push(name)
     return kittens
  }
+ function destructivelyPrependKitten(name){
+   kittens.unshift(name)
+   return kittens
+ }
   
  
