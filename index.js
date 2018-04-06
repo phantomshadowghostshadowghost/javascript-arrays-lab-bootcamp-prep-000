@@ -11,7 +11,7 @@ const app = "I don't do much."
 
  function destructivelyAppendKitten(name){
     lmd = kittens
-   kittens = kittens.appendName
+   lmd = kittens.appendName
  }
   
  
