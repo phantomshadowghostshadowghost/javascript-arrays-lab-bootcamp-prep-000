@@ -18,4 +18,8 @@ const app = "I don't do much."
    return kittens
  }
   
+  function destructivelyRemoveLastKitten(){
+    kittens.pop()
+    return kittens
+  }
  
